@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Личный кабинет{% endblock %}
+
+{% block stylesheets %} <link rel="stylesheet" href="{{ asset('css/main.css') }}"> {% endblock %}
+
+{% block body %}
+<div class="flex-center">
+
+  <div class="checkk">
+    <a href="{{ path('admin_add_article') }}">Добавить статью</a>
+  </div>
+
+  <div class="">
+    <a href="#">Новости</a>
+  </div>
+
+  <div class="">
+    <a href="{{ path('categories') }}">Статьи</a>
+  </div>
+
+  <div class="checkk">
+    <a href="#">Чек-листы</a>
+  </div>
+
+</div>
+
+{% endblock %}

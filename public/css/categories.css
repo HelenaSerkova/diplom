@@ -1,0 +1,41 @@
+@import "index.css";
+body {
+  margin: 0;
+  margin-bottom: 3rem;
+  background-image: url(../img/background2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.divcategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #e3d8c8;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+
+}
+
+.marg {
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+.divcategory a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #e3d8c8;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.divcategory:hover {
+  background: #202020;
+  cursor: pointer;
+}

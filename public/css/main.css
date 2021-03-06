@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  margin-bottom: 3rem;
+  background-image: url(../img/background1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.flex-center a {
+  text-decoration: none;
+  color: #e3d8c8;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.checkk a {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.flex-center {
+  margin-left: 29rem;
+  margin-right: 29rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex a {
+  text-decoration: none;
+  color: #e3d8c8;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.flex h4 {
+  margin-top: 0;
+}
+
+.flex a:hover{
+  border-bottom: 4px solid #d4e093;
+
+}
+
+.flex-center div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #e3d8c8;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.flex-center div:hover {
+  background: #1a2b1b;
+  cursor: pointer;
+}
+
+form h3 {
+  color: #e3d8c8;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+form label {
+  color: #e3d8c8;
+  margin-bottom: 1rem;
+}
+
+form input {
+  margin-bottom: 2rem;
+}
+
+form span {
+  color: #e3d8c8;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.onmain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.acc h3{
+  color: #bb0b04;
+}

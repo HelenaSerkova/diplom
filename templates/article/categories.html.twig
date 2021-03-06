@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Статьи{% endblock %}
+{% block stylesheets %} <link rel="stylesheet" href="{{ asset('css/categories.css') }}"> {% endblock %}
+
+{% block body %}
+
+  {% for categories in all_categories %}
+  <div class="marg">
+    <div class="divcategory">
+      <a href="#">{{ categories.name }}</a>
+    </div>
+  </div>
+
+  {% endfor %}
+
+{% endblock %}
+
+{# {{ path('article_by_category', {'category':categories.url}) }} #}

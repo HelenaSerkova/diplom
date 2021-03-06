@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Главная{% endblock %}
+
+{% block stylesheets %} <link rel="stylesheet" href="{{ asset('css/main.css') }}"> {% endblock %}
+
+{% block body %}
+<div class="flex-center">
+  <div class="">
+    <a href="#">Новости</a>
+  </div>
+
+  <div class="">
+    <a href="{{ path('categories') }}">Статьи</a>
+  </div>
+
+  <div class="checkk">
+    <a href="#">Чек-листы</a>
+  </div>
+
+  <div class="">
+    <a href="{{ path('rules') }}">Правила</a>
+  </div>
+
+  <div class="checkk">
+    <a href="{{ path('contacts') }}">О нас / Контакты</a>
+  </div>
+
+</div>
+
+{% endblock %}
